@@ -1,0 +1,18 @@
+h3{
+    font-size: 25px !important;
+}
+
+.btn-success:hover{
+    background-color:rebeccapurple;
+}
+
+canvas{
+animation-name:TearsoftheKingdomGamer;
+animation-duration: 0.1s;
+animation-iteration-count: infinite;
+}
+
+@keyframes TearsoftheKingdomGamer{
+    from {box-shadow: 1px 1px 38px red;}
+    to{box-shadow: 1px 1px 38px rgb(255, 0, 208);}
+}
